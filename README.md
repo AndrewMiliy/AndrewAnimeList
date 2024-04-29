@@ -1,11 +1,6 @@
-# My Anime List
+
 > A web application built using Spring Boot to provide users with a platform to manage their favorite anime.
 > The app uses the [_Jikan API_](https://docs.api.jikan.moe/) to provide up-to-date information about anime and includes features such as login/registration, anime search, top anime ratings, and more.
-
-
-## Demo
-Here is a working live demo deployed on Heroku cloud service: [_My Anime List_](https://my-anime-listt.herokuapp.com/)
-
 
 ## Table of Contents
 * [Overview](#overview)
@@ -13,13 +8,10 @@ Here is a working live demo deployed on Heroku cloud service: [_My Anime List_](
 * [Additional Tools](#additional-tools)
 * [Features](#features)
 * [Local Deployment](#local-deployment)
-* [SQL Schema](#sql-schema)
-* [MVC Endpoints](#mvc-endpoints)
-* [Contact](#contact)
 
 
 ## Overview
-> My Anime List is my first web development project, designed to reinforce my newly acquired knowledge after completing a Spring Boot [_course_](https://www.udemy.com/certificate/UC-f22b858d-784d-436d-be89-1c1ae1fc5835/).
+> Anime List is my first web development project, designed to reinforce my newly acquired knowledge after completing the cource
 > This project allowed me to apply my skills and gain hands-on experience working with Java, Spring Boot, and database development.
 
 
@@ -62,16 +54,8 @@ Here is a working live demo deployed on Heroku cloud service: [_My Anime List_](
 
 ## Local Deployment
 1. Clone the repository using the following command in your terminal:
-
-```git clone https://github.com/lwantPizza/my-anime-list/tree/7e7fba23f3ad1c337d3e22f62da094df7e232a78```
-
-2. Set up the MySQL database locally, [SQL script provided](https://github.com/lwantPizza/my-anime-list/blob/7e7fba23f3ad1c337d3e22f62da094df7e232a78/sql-script/script.sql)
+2. Set up the MySQL database locally
 3. Set the db properties in project's `application.properties` file:
-```
-spring.datasource.url=jdbc:mysql://localhost:3306/my_anime_list?useSSL=false&serverTimezone=UTC
-spring.datasource.username="your-username"
-spring.datasource.password="your-password"
-```
 4. Set up Gmail SMTP Server for email sender. Here's a quick tutorial on [how to do that](https://www.youtube.com/watch?v=1YXVdyVuFGA&ab_channel=Sombex).
 5. Finally, insert the generated password and email username in project's `application.properties` file:
 ```
@@ -80,14 +64,3 @@ spring.mail.password="password"
 ```
 > That's it! You should now be able to run your GitHub project locally with the correct database and email configurations.
 
-
-# SQL Schema
-![](https://github.com/lwantPizza/my-anime-list/blob/main/images/sql-schema1.png?raw=true)
-
-
-# MVC Endpoints
-![](https://github.com/lwantPizza/my-anime-list/blob/main/images/mvc-endpoints.png?raw=true)
-
-
-## Contact
-Created by [@lwantPizza](https://t.me/lwantPizza) - feel free to contact me!
